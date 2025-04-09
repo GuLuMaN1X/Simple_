@@ -1,0 +1,220 @@
+@import './variables';
+
+.sketchbook {
+    .sketchbook_container {
+        padding-top: 90px;
+        padding-left: 165px;
+        display: flex;
+
+        .sketchbook_info {
+            padding-top: 24px;
+            width: 100%;
+            max-width: 350px;
+
+            .sketchbook_btn__buy {
+                border: 1px solid $violet-color;
+                padding: 20px 95px;
+                color: $violet-color;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23.44px;
+                cursor: pointer;
+                transition: all 0.3s ease-out;
+
+                &:hover {
+                    color: #fff;
+                    background: $violet-color;
+                }
+            }
+
+            .sketchbook_descr {
+                margin-bottom: 53px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30.6px;
+                color: $paragraph-color;
+            }
+
+            .sketchbook_title {
+                margin-bottom: 8px;
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 40px;
+                color: $span-color;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 768px) and (min-width : 576px) {
+    .sketchbook {
+        .sketchbook_container {
+            padding-top: 60px;
+            padding-left: 39px;
+            display: flex;
+
+            .sketchbook_image {
+                img {
+                    margin-top: 150px;
+                    width: 100%;
+                    max-width: 369px;
+                }
+            }
+
+            .sketchbook_info {
+                padding-top: 24px;
+                width: 100%;
+                max-width: 350px;
+
+                .sketchbook_btn__buy {
+                    border: 1px solid $violet-color;
+                    padding: 20px 95px;
+                    color: $violet-color;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 23.44px;
+                    cursor: pointer;
+                    transition: all 0.3s ease-out;
+
+                    &:hover {
+                        color: #fff;
+                        background: $violet-color;
+                    }
+                }
+
+                .sketchbook_descr {
+                    margin-bottom: 53px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30.6px;
+                    color: $paragraph-color;
+                }
+
+                .sketchbook_title {
+                    margin-bottom: 8px;
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: $span-color;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 576px) {
+    .sketchbook {
+        .sketchbook_container {
+            padding-top: 60px;
+            padding-left: 33px;
+            display: flex;
+            flex-direction: column;
+            .sketchbook_image {
+                img {
+                    margin-top: 60px;
+                    width: 100%;
+                    max-width: 449px;
+                }
+            }
+
+            .sketchbook_info {
+                padding-top: 24px;
+                width: 100%;
+                max-width: 510px;
+
+                .sketchbook_btn__buy {
+                    border: 1px solid $violet-color;
+                    padding: 20px 95px;
+                    color: $violet-color;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 23.44px;
+                    cursor: pointer;
+                    transition: all 0.3s ease-out;
+
+                    &:hover {
+                        color: #fff;
+                        background: $violet-color;
+                    }
+                }
+
+                .sketchbook_descr {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    max-width: 510px;
+                    margin-bottom: 53px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 27.2px;
+                    color: $paragraph-color;
+                }
+
+                .sketchbook_title {
+                    margin-bottom: 20px;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: $span-color;
+                }
+            }
+        }
+    }
+
+}
+@media only screen and (max-width : 320px){
+    .sketchbook {
+        .sketchbook_container {
+            padding-top: 60px;
+            padding-left: 15px;
+            display: flex;
+            flex-direction: column;
+            .sketchbook_image {
+                img {
+                    margin-top: 60px;
+                    width: 100%;
+                    max-width: 290px;
+                }
+            }
+
+            .sketchbook_info {
+                padding-top: 24px;
+                width: 100%;
+                max-width: 289px;
+
+                .sketchbook_btn__buy {
+                    border: 1px solid $violet-color;
+                    padding: 20px 95px;
+                    color: $violet-color;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 23.44px;
+                    cursor: pointer;
+                    transition: all 0.3s ease-out;
+
+                    &:hover {
+                        color: #fff;
+                        background: $violet-color;
+                    }
+                }
+
+                .sketchbook_descr {
+                    width: 289px;
+                    margin-bottom: 53px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 27.2px;
+                    color: $paragraph-color;
+                }
+
+                .sketchbook_title {
+                    margin-bottom: 20px;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: $span-color;
+                }
+            }
+        }
+    }
+
+}

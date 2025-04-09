@@ -1,0 +1,101 @@
+@import './variables';
+
+.footer {
+    .footer_bottom {
+        display: flex;
+        justify-content: center;
+
+        .span_footer {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 15.23px;
+            color: $span-color;
+        }
+    }
+
+    .footer_top {
+        padding: 29px 165px;
+        background: $title-color;
+        display: flex;
+        justify-content: space-between;
+
+        .social_container {
+            .list_social {
+                display: flex;
+                gap: 30px;
+
+                .item_social {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 576px) and (min-width : 320px) {
+    .footer {
+        .footer_bottom {
+            display: flex;
+            justify-content: center;
+
+            .span_footer {
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 15.23px;
+                color: $span-color;
+            }
+        }
+
+        .footer_top {
+            padding: 29px 39px;
+            background: $title-color;
+            display: flex;
+            justify-content: space-between;
+
+            .social_container {
+                .list_social {
+                    display: flex;
+                    gap: 30px;
+
+                    .item_social {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .footer {
+        .footer_bottom {
+            display: flex;
+            justify-content: center;
+
+            .span_footer {
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 15.23px;
+                color: $span-color;
+            }
+        }
+
+        .footer_top {
+            padding: 19px 9px;
+            background: $title-color;
+            display: flex;
+            justify-content: space-between;
+
+            .social_container {
+                .list_social {
+                    display: flex;
+                    gap: 10px;
+
+                    .item_social {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
